@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body></body>
+<head>
+<title>Google</title>
+</head>
+<style>
+    .parent {
+                display: block;
+               
+        margin-top: 150px;
+    }
+    .google-logo {
+        display: block;
+        margin-right: auto;
+        margin: auto;
+    }
+    .form-parent {
+        
+        margin: auto;
+        margin-bottom: auto;
+    }
+    .search {
+                display: block;
+        margin-right: auto;
+        margin: auto;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer {
+        background-color: grey;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        margin-top: 140px;
+        padding-left: 15px;
+    }
+    .hyperlink:hover {
+     color: red;
+    }
+    .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+        }
+        
+    #button1{
+        color: blue;
+    }
+    #button2{
+        color: blue;
+    }
+    #button3{
+        background-color:hsl(210, 70%, 67%);
+    }
+    #button1:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    #button2:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    #button3:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    </style>
+    <main>
+        <header>
+            <div>
+                <label class="buttons">
+                 <button id="button1" >Images</button>
+                 <button id="button2">Gmail</button>
+                 <button id="button3">Sign Up</button>
+                </label>
+                   </div>
+        </header>
+        <div class="parent">
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"alt="Google Logo">
+            <form class="form-parent">
+                <input class="search" type="text" name="serach" value="" placeholder="Search Here....">
+                <input class="search" type="submit" name="submit" value="submit">            
+            </form>
+        </div>
+        <footer>
+            <ul class="footer">
+                <li><a class="hyperlink" href="#">Home</a></li>
+                <li><a class="hyperlink" href="#">About</a></li>
+                <li><a class="hyperlink" href="#">Contact</a></li>
+            </ul>
+        </footer>
+    </main>
+</body>
+    </html>
